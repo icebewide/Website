@@ -1,0 +1,240 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'risotto'
+
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  pre = "<i class='fa fa-heart'></i>"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  post = ""
+  pre = "<i class='fa fa-road'></i>"
+  url = "/posts"
+  weight = 2
+
+  ############################ Default configuration #########################
+# post pagination
+paginate = "10"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [""] # desable language from here
+
+######################### Default Parameters ###########################
+[params]
+# logo
+logo = "images/navlogo.png"
+logoWidth = 248
+logoHeight = 50
+# favicon
+favicon = "images/favicon.png"
+# meta data
+author = ""
+description = "Having Fun with Technology"
+# homepage main section
+mainSections = ["posts"]
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# copyright
+copyright = ""
+rssLimit = 20
+# search *** true or false (if Search is disable Menu will align in Right) ***
+search = true
+
+header_search_layout = "expanded" # "expanded" or "popupable"
+# Menu align *** "left", "right" or "center" (if Search is disable Menu will align in Right) ***
+menu_align = "center"
+# Blog-details page sidebar
+sidebar = "right" # Sidebar value ("left", "right" or false)
+
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+
+code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
+######################## Site Variables #########################
+[params.variables]
+# Color Variables
+primary_color = "#47c4f1"
+secondary_color = "#9AC4F8"
+text_color = "#666666"
+text_color_dark = "#222222"
+body_color = "#fff"
+border_color = "#ACB9C4"
+black = "#000"
+white = "#fff"
+light = "#F8F8F8"
+
+# font variable
+# Give your font name from google font. add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "PT Sans:wght@400;700"
+secondary_font = ""
+icon_font = "Font Awesome 5 Free"
+
+
+######################## sidebar widgets #########################
+[params.widgets]
+sidebar = ["toc", "google"]
+# available widget : search,about-me,authors,categories,tags,recent-post,social,promotion,subscription
+
+# preloader
+[params.preloader]
+enable = false
+preloader = "" # use png, jpg, svg or gif format
+
+# Subscription
+[params.subscription]
+enable = true
+title = "Subscribe for our monthly newsletter."
+input_placeholder = "Enter your email"
+
+# Google Ads
+[params.googlead]
+enable = false
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+########################## Plugings ######################################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "css/custom-nav.css"
+
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "fab fa-youtube" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://youtube.com/c/ChrisTitusTech"
+[[params.social]]
+icon = "fab fa-twitch" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://twitch.tv/christitustech"
+[[params.social]]
+icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://twitter.com/christitustech"
+[[params.social]]
+icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://github.com/christitustech"
+[[params.social]]
+icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.linkedin.com/in/ctitus/"
+[[params.social]]
+icon = "fas fa-rss" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://christitus.com/rss"
+
+####################### Banner #######################################
+[banner]
+bg_image = "images/bannerbackground.png"
+title = "<strong>Chris Titus Tech</strong><br>How To Articles, <br>Image Downloads,<br> Tech Guides."
+image = "images/operating systems.jpg"
+
+######################## About Me Widget ###############################
+[about_me]
+title = "Chris Titus Tech"
+bio = ""
+
+[[params.social_profile]]
+icon = "fab fa-twitter" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://twitter.com/christitustech"
+[[params.social_profile]]
+icon = "fab fa-twitch" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://twitch.tv/christitustech"
+[[params.social_profile]]
+icon = "fab fa-github" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://github.com/christitustech"
+[[params.social_profile]]
+icon = "fab fa-linkedin" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://www.linkedin.com/in/ctitus/"
+[[params.social_profile]]
+icon = "fab fa-youtube" # Fontawesome icon pack https://fontawesome.com/icons
+link = "https://youtube.com/c/ChrisTitusTech"
+
+######################## call to action ###############################
+[params.cta]
+enable = false
+image = "images/hugo-muscot.svg"
+title = "Get the best hugo templates"
+description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+
+[params.cta.button]
+enable = false
+label = "Visit Here"
+link = "https://gethugothemes.com/shop/"
+
+############################# English - Main Menu ########################
+[[menu.main]]
+weight = 6
+url = "#"
+name = "Sections"
+hasChildren = true
+  
+[[menu.main]]
+    name = "Android"
+    url = "/categories/android"
+    parent = "Sections"
+
+[[menu.main]]
+    name = "Linux"
+    url = "/categories/linux"
+    parent = "Sections"
+
+[[menu.main]]
+    name = "MacOS"
+    url = "/categories/macos"
+    parent = "Sections"
+
+[[menu.main]]
+    name = "Networking"
+    url = "/categories/networking"
+    parent = "Sections"
+
+[[menu.main]]
+    name = "Windows"
+    url = "/categories/windows"
+    parent = "Sections"
+
+############################# Footer Menu ########################
+
+[[menu.footer]]
+weight = 3
+url = "privacy/"
+name = "Privacy"
+
+[[menu.footer]]
+weight = 4
+url = "terms-conditions/"
+name = "Terms & Conditions"
