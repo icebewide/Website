@@ -2,32 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://icebewide.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Aug 2024 12:39:11 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Publisher</title>
-      <link>http://localhost:1313/posts/writeups/tryhackme/easy/publisher/</link>
-      <pubDate>Mon, 19 Aug 2024 12:39:11 +0200</pubDate>
-      <guid>http://localhost:1313/posts/writeups/tryhackme/easy/publisher/</guid>
-      <description>Grey box beginner friendly machine.&#xA;First things first add the ip address to the /etc/hosts file&#xA;$ echo &amp;#34;&amp;lt;Your $IP&amp;gt; publisher.thm&amp;#34; | sudo tee -a /etc/hosts Reconnaissance $ rustscan -a $IP -u 5000 -- -A -oN rust.scan # Nmap 7.94 scan initiated Mon Aug 19 12:50:24 2024 as: /nix/store/8j0i0cpa2y6i4gz6p35skpxcirqsi31h-nmap-7.94/bin/nmap -vvv -p 22,80 -A -oN rust.scan 10.10.48.222 Nmap scan report for publisher.thm (10.10.48.222) Host is up, received conn-refused (0.021s latency). Scanned at 2024-08-19 12:50:25 CEST for 7s PORT STATE SERVICE REASON VERSION 22/tcp open ssh syn-ack OpenSSH 8.</description>
-    </item>
-    <item>
-      <title>Tor</title>
-      <link>http://localhost:1313/posts/tor/</link>
-      <pubDate>Fri, 28 Jun 2024 19:52:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/tor/</guid>
-      <description>http://xxkdkmhcrw7mug2nhtorvsusrydoqtfxggeu3rxcxglh3jk7ltmlmeqd.onion/ https://daunt.link/&#xA;simplex monero http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/post/d34d8b7bff07ecb91d23 course below http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/post/f08b7b92368aab6a0992</description>
-    </item>
-    <item>
-      <title>Mkingdom</title>
-      <link>http://localhost:1313/posts/writeups/tryhackme/easy/mkingdom/</link>
-      <pubDate>Thu, 27 Jun 2024 20:24:34 +0200</pubDate>
-      <guid>http://localhost:1313/posts/writeups/tryhackme/easy/mkingdom/</guid>
-      <description>TryHackMe - mKingdom ======================&#xA;##### Beginner-friendly box inspired by a certain mustache man. ## Recon</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://icebewide.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
