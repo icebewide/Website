@@ -1,4 +1,4 @@
-baseURL = 'https://icebewide.github.io/'
+baseURL = 'https://icebewide.github.io/Website/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'risotto'
